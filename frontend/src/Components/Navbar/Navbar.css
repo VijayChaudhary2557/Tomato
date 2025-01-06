@@ -1,0 +1,164 @@
+/* i {
+    font-size: 30px;
+}
+
+.sign-up-btn {
+    background-color: transparent;
+    font-size: 16px;
+    color: #49557e;
+    border: 1px solid rgba(255, 99, 71, 0.532);
+    padding: 10px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.sign-up-btn:hover {
+    background-color: #fff4f2;
+}
+
+.navbar-brand img{
+    width: 150px;
+}
+
+
+.navbar-menus li{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+
+.navbar-menus li:hover{
+    opacity: 1;
+}
+
+.active {
+    opacity: 1;
+    padding-bottom: 2px;
+    border-bottom: 2px solid #49557e;
+}
+
+.cart {
+    position: relative;
+}
+
+.cart .dot {
+    position: absolute;
+    min-width: 10px;
+    min-height: 10px;
+    background-color: tomato;
+    border-radius: 5px;
+    top: 0px;
+    right: 0px;
+}
+
+
+ */
+
+
+
+ .cart i {
+    font-size: 2rem;
+    color: rgba(255, 99, 71, 0.651);
+    position: relative;
+}
+
+.cart-active i {
+    color: tomato;
+}
+.dot-icon {
+    color: #ee3440 !important;
+    font-size: 10px !important;
+    position: absolute;
+    bottom: 24px;
+    right: 1px;
+}
+
+
+footer a, .contect-icon {
+    text-decoration: none;
+    color: gray;
+}
+
+.font-high {
+    font-size: 25px;
+}
+
+.social-links  button {
+    border: 1px solid white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #1c2331;
+    padding-left: 12px;
+}
+
+.social-links button:hover {
+    /* background: white; */
+    border: 2px solid white;
+    color: white;
+    transition: 0.1s;
+}
+
+.social-links button:hover a {
+    color: white;  /* Yeh icons ke liye hoga */
+    transition: 0.1s;
+
+}
+
+.navbar-container {
+    background-color: rgba(255, 255, 255, 0.923);
+}
+
+.navbar-nav li{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+
+
+.navbar-nav li:hover{
+    opacity: 1 !important;
+    cursor: pointer !important;
+    transform: scale(1.05);
+}
+
+.active {
+    opacity: 1 !important;
+    padding-bottom: 2px !important;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.792) !important;
+    color: black !important;
+    font-weight: 500;
+    transform: scale(1.05);
+}
+
+
+.user-icon {
+    color: tomato;
+    font-size: 30px;
+}
+
+.user-icon:hover {
+    opacity: 0.8;
+}
+
+.order-dropdown, .logout-dropdown {
+    display: flex;
+    cursor: pointer;
+}
+
+.order-dropdown span:hover{
+    color: tomato;
+}
+
+.logout-dropdown span:hover{
+    color: tomato;
+}
+
+.order-dropdown span, .logout-dropdown span{
+    font-size: 18px;
+    align-self: center;
+    margin-left: 10px;
+    color: #a9a9a9;
+    margin-top: 5px;
+}

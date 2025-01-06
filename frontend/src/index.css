@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Exo 2", serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+@keyframes fadeIn {
+  0%{
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.btn-tomato {
+  /* outline: 1px solid tomato; */
+  background-color: tomato;
+  color: white;
+}
+
+.btn-tomato:hover{
+  outline: 1px solid tomato;
+  background-color: none;
+  color: tomato;
+}
+
+.login-popup p span {
+  color: tomato;
+  font-weight: bold;
+  cursor: pointer;
+}

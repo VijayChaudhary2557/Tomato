@@ -1,0 +1,26 @@
+.cart-img {
+    width: 60%;
+}
+
+td {
+    vertical-align: middle;
+}
+
+.cart-cross i{
+    color: tomato;
+    cursor: pointer;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.cart-cross i:hover{
+    transform: scale(1.05);
+}
+
+.cart-total hr {
+    margin: 10px 0;
+}
+
+.cart-promocode-input .form-control {
+    background-color: #d7d7d8;
+}

@@ -1,0 +1,28 @@
+.table-img img {
+    width: 80px;
+} 
+
+.list-content {
+    width: 80%;
+}
+
+.side {
+    width: 20%;
+}
+
+
+.cursor {
+    cursor:  pointer;
+}
+
+.delete-btn {
+    background-color: tomato;
+    color: white;
+    border: 2px solid tomato;
+}
+
+.delete-btn:hover{
+    background-color: white;
+    color: tomato;
+    border: 2px solid tomato;
+}

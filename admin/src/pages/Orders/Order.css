@@ -1,0 +1,19 @@
+.side {
+    width: 20%;
+}
+
+.list-content {
+    width: 80%;
+}
+
+.my-select {
+    background-color: tomato !important;
+    color: white !important;
+    border: 2px solid white !important;
+}
+
+.my-select:hover {
+    background-color: white !important;
+    color: tomato !important;
+    border: 2px solid tomato;
+}

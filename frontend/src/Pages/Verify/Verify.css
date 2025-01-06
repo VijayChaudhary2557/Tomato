@@ -1,0 +1,13 @@
+.spinner-wrapper {
+    height: 33vh;  /* Set height as required */
+    display: flex;
+    justify-content: center;  /* Horizontal center */
+    align-items: center;  /* Vertical center */
+  }
+
+  .custom-spinner {
+    width: 6rem;
+    height: 6rem;
+    border-width: 0.5rem;
+    color: tomato;
+  }
