@@ -6,7 +6,7 @@ require('dotenv').config();
 const connectDB = require('./config/db');
 const foodRouter = require('./routes/FoodRoute');
 const bodyParser = require('body-parser');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 
 
 // Connect Database

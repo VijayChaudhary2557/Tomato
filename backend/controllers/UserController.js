@@ -7,7 +7,7 @@ const validator = require('validator');
 const process = require('process');
 require('dotenv').config();
 
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 
 // ...........................Login User.......................
 
