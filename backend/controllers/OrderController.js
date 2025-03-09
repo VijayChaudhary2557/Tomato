@@ -4,7 +4,7 @@ const User = require('../models/User');
 
 module.exports.placeOrder = async (req, res) => {
 
-    const frontend_url = 'http://localhost:5174';
+    const frontend_url = 'https://tomato-gk93.onrender.com/';
     console.log("enter");
     try {
         const newOrder = new Order({
