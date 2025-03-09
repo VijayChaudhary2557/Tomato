@@ -41,6 +41,8 @@ export default function PlaceOrder() {
         orderItems.push(itemInfo);
       }
     })
+
+
     
     let orderData = {
       address: data,
@@ -51,6 +53,8 @@ export default function PlaceOrder() {
     console.log(orderData);
 
     let response = await axios.post(url+"api/order/place", orderData, {headers: {token}});
+
+    console.log(response.data);
 
     if(response.data.success) {
       console.log(response.data);
